@@ -1,0 +1,163 @@
+/*Identificamos la paleta de colores*/
+:root {
+    --primario: #DB2777; 
+    --secundario: #FDF2F8;
+    --terciario: #FBCFE8;
+    --neutral: white;    /* #1F2937; */
+    --color-texto: rgb(27, 32, 33); 
+}
+
+body {
+    background-color: var(--neutral) !important;
+    font-family: "Inter" !important;
+    font-optical-sizing: auto !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Inter' !important;
+    font-weight: 400;
+    font-style: normal;
+}
+/*************************NAVBAR**********************************/
+#navBar .nav-link{
+    color: var(--primario) !important; 
+    font-weight: 700; 
+    font-size: 1.5rem;
+}
+.nav-custom {
+    background-color: var(--neutral);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);/*sombra*/ 
+}
+
+/*************************HOME**********************************/
+#home{
+    padding: auto;
+    text-align: center;
+    font-weight: 900 ;
+    font-size: 2rem;
+
+}
+#home h5{
+    padding-top: 8rem;
+    font-weight: 900;
+    font-size: 5rem;
+    color: white;
+}
+#home a{
+    image-rendering: auto;
+    color: white;
+    font-weight: 500;
+}
+/*botones*/
+#home .btn-imagen {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    background-color: transparent;
+    object-position: center;
+    padding: 1rem;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.btn-cv{
+    background-color: #DB2777;
+    color: #FBCFE8;
+    border-bottom: #FBCFE8;
+    border-radius: 1rem;
+    font-size: x-large;
+
+}
+
+
+
+
+/*************************RESUME**********************************/
+
+/*************************PROJECTS**********************************/
+#projects{
+    padding: 3rem;
+}
+
+.card-custom .card-img-top {
+  height: 220px;            /* Altura fija para todas las imágenes */
+  object-fit: cover;        /* Recorta la imagen limpiamente para llenar el espacio sin estirarse */
+  object-position: center;   /* Centra el encuadre de la imagen */
+}
+
+#projects h5{
+    color: var(--primario);
+    font-weight: 800;
+    font-size: xx-large;
+}
+
+#projects .verCodigo{
+    color: var(--primario); 
+    font-size: 13px; /*  tamaño de letra */
+    font-weight: 600; /* espesor de la letra */
+    letter-spacing: 0.05rem; /* espacio entre letras*/
+
+    margin-top: auto; /* margen de arriba auto*/
+    margin-bottom: 0; /* margen de abajo del rol*/
+}
+
+/*stack*/
+/*imagenes*/
+#stack{
+    color: var(--primario);
+    font-weight: 900;
+    font-size: large;
+    padding: 1rem;
+}
+
+.tech-icon {
+    width: 4rem;      /* Define un ancho fijo para todos los iconos */
+    height: 4rem;     /* Define un alto fijo */
+    object-fit: contain; /* Mantiene la proporción de la imagen sin deformarla */
+
+
+}
+.tech-icon:hover {
+    transform: scale(1.15) translateY(-5px);
+    cursor: pointer;
+}
+
+
+/*************************ABOUT ME**********************************/
+#about{
+    font-size: 1.2rem;
+    text-justify: auto;
+}
+#about h1{
+    color: var(--primario);
+    font-size: xx-large;
+    font-weight: 900;
+
+}
+
+.aboutMe {
+    object-fit: cover;
+    width: 70%;
+    height: auto;
+    border-radius: 1rem;
+    box-shadow: 0 14px 35px rgba(0, 0, 0, 0.2); /* sombreado suave y con opacidad */
+    
+
+}
+/*************************CONTACT**********************************/
+
+#contact h1{
+    color: var(--primario);
+    font-weight: 900;
+}
+#contact .btn-imagen{
+    height: 1.2rem;
+    width: 1.2rem;
+}
