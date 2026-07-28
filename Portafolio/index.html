@@ -44,23 +44,27 @@
 
 <!--------------------------------------------HOME------------------------------------>
 <section id="home">
-    <div class="card text-bg-dark">
-        <img src="https://midu.dev/images/wallpapers/una-taza-de-javascript.png" class="card-img" alt="imgbaner">
-        <div class="card-img-overlay">
-            <h5 class="card-title">Frida Luna</h5>
-            <p class="card-text">Software Developer</p>
-            <p class="card-text">Thanks for checking out my portfolio! Whether you’re a recruiter, fellow engineer, friend, or lost stranger, I hope you enjoy the ride</p>
-                <div class="d-flex align-items-center justify-content-center gap-3 mt-3">                
-                    <a href="https://www.linkedin.com/in/luna-frida/" class="btn-imagen">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="linkein" width="30" height="30">
+    <div class="card text-bg-dark"> 
+        <img src="assets/projects/heroBlanco.png" class="card-img" alt="imgbaner" style="min-height: 400px; object-fit: cover;" >
+        <div class="card-img-overlay d-flex flex-column align-items-center justify-content-center p-3">
+            <div>
+                <h5 class="card-title">Frida Luna</h5>
+                <p class="card-text text-role">
+                    Software Developer
+                </p>
+                <p class="card-text text-description">
+                    Thanks for checking out my portfolio! Whether you’re a recruiter, 
+                    fellow engineer, friend, or lost stranger, I hope you enjoy the ride
+                </p>
+                <div class="d-flex align-items-center justify-content-center gap-3 mt-3">
+                    <a class="btn-contact" href="https://www.linkedin.com/in/luna-frida/" >
+                        LinkdIn
                     </a>
-                    <a class="btn-cv" href="assets/FridaLunaCV.pdf" download>
-                        resume
-                    </a>
-
+                    <a class="btn-contact" href="mailto:frida.luna.gb@gmail.com">Email me</a>
+                    <a class="btn-contact" href="https://github.com/frida-luna20" >GitHub</a>
                 </div>
-
-
+                
+            </div>
 
         </div>
 
@@ -70,10 +74,45 @@
 
 <!--------------------------------------------RESUME------------------------------------> 
 <section id="resume">
-    
-</section>   
+</section> 
+<section id="education" class="py-5">
+    <div class="container">
+        <h1 class="mb-2">Background</h1>
+        <div class="title-underline mb-5"></div>
+
+        <div class="timeline">
+
+            <!-- Item 1 -->
+            <div class="timeline-item">
+                <div class="timeline-dot timeline-dot-active"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">FEB 2026 — MAY 2026</span>
+                    <h4 class="timeline-title">Bootcamp Java Full Stack Jr.</h4>
+                    <p class="timeline-institution">Generation México</p>
+                    <p class="timeline-desc">Intensive training in Java, Python, MySQL, JavaScript, Scrum methodology, and teamwork through real-world projects.</p>
+                    <span class="badge timeline-badge">Currently</span>
+                </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">AUG 2017 — DEC 2023</span>
+                    <h4 class="timeline-title">Geology Engineering</h4>
+                    <p class="timeline-institution">UNAM</p>
+                    <p class="timeline-desc">Scientific background with an emphasis on data analysis, modeling, and complex problem-solving. Strong analytical foundation that powers my profile as a software developer</p>
+                    <span class="badge timeline-badge">Finished</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>  
 <!--------------------------------------------PROJECTS------------------------------------> 
 <section id="projects">
+    <h1>Crafting Digital Experience</h1>
+    <h5>Featured Projects</h5>
     <!--cards for projects-->
     <div class="row row-cols-1 row-cols-md-2 g-4">
         <div class="col">
@@ -85,7 +124,7 @@
                         E-commerce platform built as part of a 7-person cross-functional team using Agile and Scrum methodologies. 
                         Working in iterative sprints, we developed key features including a fully functional shopping cart system, an engaging landing page, and a responsive contact page
                     </p>
-                    <a class="verCodigo" href="https://github.com/taniacsm/MochiMexa">Ver Codigo</a>
+                    <a class="verCodigo" href="https://github.com/taniacsm/MochiMexa">Watch code →</a>
                 </div>
             </div>
         </div>
@@ -95,7 +134,7 @@
                 <div class="card-body d-flex flex-column">
                     <h5 class="card-title">HydroFlow</h5>
                     <p class="card-text">Built under a 7-hour deadline during a competitive hackathon, HydroFlow is a modern landing page crafted for selling premium aquatic and water sports equipment. Designed with a clean, fluid user interface that highlights feature products, customer trust signals, and an optimized call-to-action flow</p>
-                    <a class="verCodigo" href="https://github.com/NinjatoTim/hackathon-generation-equipo2">Ver Codigo</a>
+                    <a class="verCodigo" href="https://github.com/NinjatoTim/hackathon-generation-equipo2">Watch code →</a>
                 </div>
             </div>
         </div>
@@ -123,11 +162,15 @@
 </section>
 
 
-<!-----------Stack------------->
+<!----------------------------------------Stack-------------------------------------------->
 
 <section id="stack">
+    <h1 class="font-headline">Technical Stack</h1>
+       
     <div class="container text-center">
+
         <div class="row">
+        
             <div class="col">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1F4dmI5txw2qmR_FlmspoMGO4IuZcGNRodQJ7lfn6tw&s" alt="python" class="img-fluid mb-2 tech-icon">
                 <p>Python</p>
@@ -194,6 +237,9 @@
                     adaptability, and a strong engineering foundation to a dynamic team where I can contribute 
                     to building innovative, data-driven tech solutions. You can learn more about my journey in my resume:
                 </p>
+                <a class="btn-cv" href="assets/FridaLunaCV.pdf" download>
+                    resume
+                </a>
             </div>
             <div class="col-12 col-md-6">
                 <img src="assets/me/me.jpeg" alt="mePicture" class="aboutMe mt-4 mt-md-0">
@@ -211,7 +257,7 @@
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="linkein" width="30" height="30">
         </a>
         <h5>Email me</h5>
-        <p>frida.luna.gb@gmail.com</p>
+        <a href="mailto:frida.luna.gb@gmail.com" class="email-link">frida.luna.gb@gmail.com</a>
     </div>
     
     
